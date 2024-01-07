@@ -1,4 +1,4 @@
-package com.devhp.jetnews_app_clone
+package com.devhp.jetnews_app_clone.data
 
 import java.lang.Exception
 
