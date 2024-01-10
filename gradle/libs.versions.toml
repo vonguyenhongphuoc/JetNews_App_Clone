@@ -1,0 +1,10 @@
+#####
+# This file is duplicated to individual samples from the global scripts/libs.versions.toml
+# Do not add a dependency to an individual sample, edit the global version instead.
+#####
+[versions]
+# @keep
+couroutines="1.7.3"
+[libraries]
+kotlinx-coroutines-android = {module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref="couroutines"}
+[plugins]
