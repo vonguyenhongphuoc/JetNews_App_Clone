@@ -3,8 +3,14 @@
 # Do not add a dependency to an individual sample, edit the global version instead.
 #####
 [versions]
+androidx-compose-bom = "2023.10.01"
 # @keep
 couroutines="1.7.3"
+version-catalog-update = "0.8.3"
+
 [libraries]
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
 kotlinx-coroutines-android = {module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref="couroutines"}
+androidx-compose-materialWindow = { module = "androidx.compose.material3:material3-window-size-class" }
 [plugins]
+version-catalog-update = { id = "nl.littlerobots.version-catalog-update", version.ref = "version-catalog-update" }
